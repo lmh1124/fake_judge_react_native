@@ -27,8 +27,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // OpenAI API 키
-//const OPENAI_API_KEY = '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';
-const OPENAI_API_KEY = ''; // 커밋용(보안 이슈)
+const OPENAI_API_KEY = '';
 
 // 사건 등록 API
 app.post('/api/cases', async (req, res) => {
